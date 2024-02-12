@@ -1,5 +1,7 @@
 ### Hi there 👋
 
+[![AdrianRusan's GitHub | Stats](https://stats.quine.sh/AdrianRusan/github?theme=dark)](https://quine.sh?utm_source=widgets&utm_campaign=AdrianRusan)
+
 <!--
 **AdrianRusan/AdrianRusan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
