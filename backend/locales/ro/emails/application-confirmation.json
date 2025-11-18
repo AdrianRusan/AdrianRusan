@@ -1,0 +1,4 @@
+{
+  "subject": "Confirmare cerere {trackingNumber}",
+  "body": "Bună ziua {firstName},\n\nCererea dumneavoastră de tip {applicationType} a fost înregistrată cu succes.\n\nNumăr de înregistrare: {trackingNumber}\nData: {createdAt}\n\nVeți fi notificat prin email despre orice modificare a statusului cererii.\n\nMultumim,\nEchipa PUG Platform"
+}

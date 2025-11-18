@@ -1,0 +1,4 @@
+{
+  "subject": "Az Ön hirdetése 7 napon belül lejár",
+  "body": "Helló {firstName},\n\nTájékoztatjuk, hogy földértékesítési hirdetése {expiresAt} időpontban lejár.\n\nHa meg szeretné újítani a hirdetést, kérjük, lépjen be a platformra és használja a megújítási opciót.\n\nHirdetés ID: {saleId}\nÁr: {price} {currency}\n\nKöszönjük,\nPUG Platform Csapat"
+}

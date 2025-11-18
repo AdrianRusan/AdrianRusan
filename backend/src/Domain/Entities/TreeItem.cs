@@ -1,4 +1,5 @@
 using NetTopologySuite.Geometries;
+using PugPlatform.Domain.Enums;
 
 namespace PugPlatform.Domain.Entities;
 
@@ -8,7 +9,8 @@ public class TreeItem
     public Guid ApplicationId { get; set; }
     public Point? Geom { get; set; }
     public string Species { get; set; } = string.Empty;
-    public int? AgeEstimate { get; set; }
+    public int? AgeEstimateYears { get; set; }
+    public TreeAge? AgeCategory { get; set; }
     public decimal? DiameterCm { get; set; }
     public string? Condition { get; set; }
     public string Motivation { get; set; } = string.Empty;

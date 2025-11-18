@@ -1,0 +1,4 @@
+{
+  "subject": "Kérelem megerősítése {trackingNumber}",
+  "body": "Helló {firstName},\n\nAz Ön {applicationType} kérelme sikeresen rögzítésre került.\n\nNyilvántartási szám: {trackingNumber}\nDátum: {createdAt}\n\nEmailben értesítjük bármilyen állapotváltozásról.\n\nKöszönjük,\nPUG Platform Csapat"
+}

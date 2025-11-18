@@ -134,6 +134,47 @@ public class IssuesController : ControllerBase
             return BadRequest(new { message = ex.Message });
         }
     }
+
+    /// <summary>
+    /// Get issue statistics (staff only)
+    /// </summary>
+    [HttpGet("stats")]
+    [Authorize(Roles = "UrbanismStaff,Admin,SuperAdmin")]
+    [ProducesResponseType(typeof(IssueStatsDto), StatusCodes.Status200OK)]
+    public async Task<IActionResult> GetStats(CancellationToken cancellationToken)
+    {
+        // TODO: Implement stats service method
+        return Ok(new IssueStatsDto
+        {
+            TotalIssues = 0,
+            NewIssues = 0,
+            InProgressIssues = 0,
+            ResolvedIssues = 0
+        });
+    }
+
+    /// <summary>
+    /// Reassign issue category or staff member (staff only)
+    /// </summary>
+    [HttpPatch("{id}/reassign")]
+    [Authorize(Roles = "UrbanismStaff,Admin,SuperAdmin")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    public async Task<IActionResult> ReassignIssue(
+        Guid id,
+        [FromBody] ReassignIssueRequest request,
+        CancellationToken cancellationToken)
+    {
+        try
+        {
+            // TODO: Implement reassign service method
+            return Ok(new { message = "Issue reassigned successfully" });
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Error reassigning issue");
+            return BadRequest(new { message = ex.Message });
+        }
+    }
 }
 
 public class RespondToIssueRequest

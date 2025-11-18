@@ -1,0 +1,4 @@
+{
+  "subject": "Application confirmation {trackingNumber}",
+  "body": "Hello {firstName},\n\nYour {applicationType} application has been successfully registered.\n\nTracking number: {trackingNumber}\nDate: {createdAt}\n\nYou will be notified by email about any status changes.\n\nThank you,\nPUG Platform Team"
+}

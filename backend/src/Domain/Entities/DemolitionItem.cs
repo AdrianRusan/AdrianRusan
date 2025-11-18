@@ -1,4 +1,5 @@
 using NetTopologySuite.Geometries;
+using PugPlatform.Domain.Enums;
 
 namespace PugPlatform.Domain.Entities;
 
@@ -7,9 +8,10 @@ public class DemolitionItem
     public Guid Id { get; set; }
     public Guid ApplicationId { get; set; }
     public Polygon? Geom { get; set; }
-    public string StructureType { get; set; } = string.Empty;
+    public StructureType StructureType { get; set; }
+    public ConstructionMaterial Material { get; set; }
     public int? YearConstruction { get; set; }
-    public string? Material { get; set; }
+    public int? ApproximateAge { get; set; }
     public string Motivation { get; set; } = string.Empty;
 
     // Navigation properties

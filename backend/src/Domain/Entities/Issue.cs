@@ -13,11 +13,14 @@ public class Issue
     public string LastName { get; set; } = string.Empty;
     public string Email { get; set; } = string.Empty;
     public string? Phone { get; set; }
+    public IssueCategory Category { get; set; } = IssueCategory.Other;
     public IssueStatus Status { get; set; } = IssueStatus.New;
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
     public string? Response { get; set; }
     public DateTime? RespondedAt { get; set; }
+    public Guid? AssignedToId { get; set; }
 
     // Navigation properties
+    public User? AssignedTo { get; set; }
     public ICollection<Attachment> Attachments { get; set; } = new List<Attachment>();
 }

@@ -1,0 +1,4 @@
+{
+  "subject": "Your listing expires in 7 days",
+  "body": "Hello {firstName},\n\nWe inform you that your land sale listing will expire on {expiresAt}.\n\nIf you wish to renew the listing, please access the platform and use the renewal option.\n\nListing ID: {saleId}\nPrice: {price} {currency}\n\nThank you,\nPUG Platform Team"
+}
