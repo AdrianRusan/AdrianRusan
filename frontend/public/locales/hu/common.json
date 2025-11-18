@@ -1,0 +1,102 @@
+{
+  "common": {
+    "welcome": "Üdvözöljük",
+    "login": "Bejelentkezés",
+    "register": "Regisztráció",
+    "logout": "Kijelentkezés",
+    "submit": "Beküldés",
+    "cancel": "Mégse",
+    "save": "Mentés",
+    "delete": "Törlés",
+    "edit": "Szerkesztés",
+    "search": "Keresés",
+    "loading": "Betöltés...",
+    "error": "Hiba",
+    "success": "Siker"
+  },
+  "nav": {
+    "home": "Kezdőlap",
+    "map": "Térkép",
+    "applications": "Kérelmek",
+    "issues": "Problémák",
+    "marketplace": "Piac",
+    "admin": "Adminisztráció"
+  },
+  "map": {
+    "title": "Térkép Nézet",
+    "searchPlaceholder": "Keresés parcella ID vagy cím alapján...",
+    "layers": "Rétegek",
+    "parcels": "Parcellák",
+    "applications": "Kérelmek",
+    "issues": "Problémák",
+    "sales": "Eladások"
+  },
+  "applications": {
+    "title": "Kérelmek",
+    "new": "Új Kérelem",
+    "trackingNumber": "Nyilvántartási Szám",
+    "status": "Állapot",
+    "type": "Típus",
+    "createdAt": "Létrehozva",
+    "types": {
+      "treeCutting": "Favágás",
+      "demolition": "Bontás",
+      "construction": "Építés",
+      "urbanismCertificate": "Városrendezési Igazolás",
+      "scanRequest": "Szkennelési Kérelem"
+    },
+    "statuses": {
+      "draft": "Vázlat",
+      "submitted": "Beküldve",
+      "underReview": "Felülvizsgálat Alatt",
+      "requestInfo": "Információ Kérése",
+      "approved": "Jóváhagyva",
+      "rejected": "Elutasítva",
+      "cancelled": "Törölve"
+    }
+  },
+  "issues": {
+    "title": "Probléma Jelentése",
+    "reportIssue": "Probléma Jelentése",
+    "issueTitle": "Cím",
+    "description": "Leírás",
+    "location": "Helyszín",
+    "photos": "Fényképek",
+    "contact": "Kapcsolattartási Információk",
+    "firstName": "Keresztnév",
+    "lastName": "Vezetéknév",
+    "email": "Email",
+    "phone": "Telefon",
+    "status": "Állapot",
+    "statuses": {
+      "new": "Új",
+      "inProgress": "Folyamatban",
+      "resolved": "Megoldva",
+      "rejected": "Elutasítva"
+    }
+  },
+  "sales": {
+    "title": "Földpiac",
+    "newListing": "Új Hirdetés",
+    "price": "Ár",
+    "description": "Leírás",
+    "expiresAt": "Lejár",
+    "renew": "Megújítás",
+    "photos": "Fényképek",
+    "parcel": "Parcella",
+    "surface": "Terület"
+  },
+  "auth": {
+    "login": "Bejelentkezés",
+    "register": "Regisztráció",
+    "email": "Email",
+    "password": "Jelszó",
+    "firstName": "Keresztnév",
+    "lastName": "Vezetéknév",
+    "phone": "Telefon",
+    "confirmPassword": "Jelszó Megerősítése",
+    "forgotPassword": "Elfelejtette jelszavát?",
+    "noAccount": "Nincs fiókja?",
+    "hasAccount": "Már van fiókja?"
+  }
+}

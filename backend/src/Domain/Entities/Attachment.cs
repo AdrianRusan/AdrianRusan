@@ -1,0 +1,13 @@
+namespace PugPlatform.Domain.Entities;
+
+public class Attachment
+{
+    public Guid Id { get; set; }
+    public string OwnerType { get; set; } = string.Empty; // application|issue|sale|scan
+    public Guid OwnerId { get; set; }
+    public string FileName { get; set; } = string.Empty;
+    public string ContentType { get; set; } = string.Empty;
+    public long Size { get; set; }
+    public string StoragePath { get; set; } = string.Empty;
+    public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+}

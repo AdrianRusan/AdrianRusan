@@ -1,0 +1,102 @@
+{
+  "common": {
+    "welcome": "Bine ați venit",
+    "login": "Autentificare",
+    "register": "Înregistrare",
+    "logout": "Deconectare",
+    "submit": "Trimite",
+    "cancel": "Anulează",
+    "save": "Salvează",
+    "delete": "Șterge",
+    "edit": "Editează",
+    "search": "Caută",
+    "loading": "Se încarcă...",
+    "error": "Eroare",
+    "success": "Succes"
+  },
+  "nav": {
+    "home": "Acasă",
+    "map": "Hartă",
+    "applications": "Cereri",
+    "issues": "Probleme",
+    "marketplace": "Piață",
+    "admin": "Administrare"
+  },
+  "map": {
+    "title": "Vizualizare Hartă",
+    "searchPlaceholder": "Caută după ID parcelă sau adresă...",
+    "layers": "Straturi",
+    "parcels": "Parcele",
+    "applications": "Cereri",
+    "issues": "Probleme",
+    "sales": "Vânzări"
+  },
+  "applications": {
+    "title": "Cereri",
+    "new": "Cerere Nouă",
+    "trackingNumber": "Număr de înregistrare",
+    "status": "Status",
+    "type": "Tip",
+    "createdAt": "Creat la",
+    "types": {
+      "treeCutting": "Tăiere Copaci",
+      "demolition": "Demolare",
+      "construction": "Construcție",
+      "urbanismCertificate": "Certificat Urbanism",
+      "scanRequest": "Cerere Scanare"
+    },
+    "statuses": {
+      "draft": "Ciornă",
+      "submitted": "Trimis",
+      "underReview": "În Analiză",
+      "requestInfo": "Solicită Informații",
+      "approved": "Aprobat",
+      "rejected": "Respins",
+      "cancelled": "Anulat"
+    }
+  },
+  "issues": {
+    "title": "Raportare Probleme",
+    "reportIssue": "Raportează o Problemă",
+    "issueTitle": "Titlu",
+    "description": "Descriere",
+    "location": "Locație",
+    "photos": "Fotografii",
+    "contact": "Informații de Contact",
+    "firstName": "Prenume",
+    "lastName": "Nume",
+    "email": "Email",
+    "phone": "Telefon",
+    "status": "Status",
+    "statuses": {
+      "new": "Nou",
+      "inProgress": "În Lucru",
+      "resolved": "Rezolvat",
+      "rejected": "Respins"
+    }
+  },
+  "sales": {
+    "title": "Piața Terenurilor",
+    "newListing": "Anunț Nou",
+    "price": "Preț",
+    "description": "Descriere",
+    "expiresAt": "Expiră la",
+    "renew": "Reînnoiește",
+    "photos": "Fotografii",
+    "parcel": "Parcelă",
+    "surface": "Suprafață"
+  },
+  "auth": {
+    "login": "Autentificare",
+    "register": "Înregistrare",
+    "email": "Email",
+    "password": "Parolă",
+    "firstName": "Prenume",
+    "lastName": "Nume",
+    "phone": "Telefon",
+    "confirmPassword": "Confirmă Parola",
+    "forgotPassword": "Ai uitat parola?",
+    "noAccount": "Nu ai cont?",
+    "hasAccount": "Ai deja cont?"
+  }
+}

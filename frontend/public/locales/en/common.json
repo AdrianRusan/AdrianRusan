@@ -1,0 +1,102 @@
+{
+  "common": {
+    "welcome": "Welcome",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "search": "Search",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success"
+  },
+  "nav": {
+    "home": "Home",
+    "map": "Map",
+    "applications": "Applications",
+    "issues": "Issues",
+    "marketplace": "Marketplace",
+    "admin": "Admin"
+  },
+  "map": {
+    "title": "Map Viewer",
+    "searchPlaceholder": "Search by parcel ID or address...",
+    "layers": "Layers",
+    "parcels": "Parcels",
+    "applications": "Applications",
+    "issues": "Issues",
+    "sales": "Sales"
+  },
+  "applications": {
+    "title": "Applications",
+    "new": "New Application",
+    "trackingNumber": "Tracking Number",
+    "status": "Status",
+    "type": "Type",
+    "createdAt": "Created At",
+    "types": {
+      "treeCutting": "Tree Cutting",
+      "demolition": "Demolition",
+      "construction": "Construction",
+      "urbanismCertificate": "Urbanism Certificate",
+      "scanRequest": "Scan Request"
+    },
+    "statuses": {
+      "draft": "Draft",
+      "submitted": "Submitted",
+      "underReview": "Under Review",
+      "requestInfo": "Request Info",
+      "approved": "Approved",
+      "rejected": "Rejected",
+      "cancelled": "Cancelled"
+    }
+  },
+  "issues": {
+    "title": "Report Issue",
+    "reportIssue": "Report an Issue",
+    "issueTitle": "Title",
+    "description": "Description",
+    "location": "Location",
+    "photos": "Photos",
+    "contact": "Contact Information",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phone": "Phone",
+    "status": "Status",
+    "statuses": {
+      "new": "New",
+      "inProgress": "In Progress",
+      "resolved": "Resolved",
+      "rejected": "Rejected"
+    }
+  },
+  "sales": {
+    "title": "Land Marketplace",
+    "newListing": "New Listing",
+    "price": "Price",
+    "description": "Description",
+    "expiresAt": "Expires At",
+    "renew": "Renew",
+    "photos": "Photos",
+    "parcel": "Parcel",
+    "surface": "Surface"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "email": "Email",
+    "password": "Password",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "phone": "Phone",
+    "confirmPassword": "Confirm Password",
+    "forgotPassword": "Forgot password?",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?"
+  }
+}
